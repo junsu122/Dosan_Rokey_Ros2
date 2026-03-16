@@ -1,0 +1,7 @@
+int64 a
+int64 b
+---
+int64 sum
+int64 minus
+int64 multiply
+float64 divide
