@@ -17,7 +17,7 @@ setup(
     maintainer_email='mh9716@kookmin.ac.kr',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'letter_publisher = hangman_game.letter_publisher:main',

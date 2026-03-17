@@ -1,8 +1,8 @@
 # Goal
-float32 go
+float32 go 
 ---
 # Result
-float32 res
+float32 res 
 ---
 # Feedback
 string[] str

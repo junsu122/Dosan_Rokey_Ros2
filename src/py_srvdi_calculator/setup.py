@@ -17,7 +17,7 @@ setup(
     maintainer_email='junsoo122@naver.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'service_member_function = py_srvdi_calculator.service_member_function:main',

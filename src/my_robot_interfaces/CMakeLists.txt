@@ -24,6 +24,7 @@ set(srv_files
 set(action_files
 "action/SwitchControl.action"
 "action/Navigate.action"
+"action/MoveTurtle.action"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
 ${msg_files}

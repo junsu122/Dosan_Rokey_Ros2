@@ -41,41 +41,12 @@ def generate_launch_description():
             executable='argument',
             name='argument',
             parameters=[param_dir],
-            # 명령어 remapping 
-            # ros2 run ex_calculator argument --ros-args -r  arithmetic_argument:=argument
-            remappings=[
-                ('/arithmetic_argument', '/argument')
-                ],
-            # output='screen'),
-            output='log'),
+            output='screen'),
 
         Node(
             package='ex_calculator',
             executable='calculator',
             name='calculator',
             parameters=[param_dir],
-                        # 명령어 remapping 
-            # ros2 run ex_calculator argument --ros-args -r  arithmetic_argument:=argument
-            remappings=[
-                ('/arithmetic_argument', '/argument')
-                ],
-            # output='screen'),
-            output='log'),
-
-        Node(
-            package='ex_calculator',
-            executable='operator',
-            name='operator',
-            parameters=[param_dir],
-            # output='screen'),
-            output='log'),
-
-        Node(
-            package='ex_calculator',
-            executable='checker',
-            name='checker',
-            parameters=[param_dir],
             output='screen'),
-            # output='log'),
-
     ])

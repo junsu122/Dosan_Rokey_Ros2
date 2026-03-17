@@ -17,7 +17,7 @@ setup(
     maintainer_email='junsoo122@naver.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "my_msg_test = ros_study_py.my_msg_test:main",
