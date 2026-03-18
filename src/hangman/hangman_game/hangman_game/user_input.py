@@ -24,12 +24,12 @@ class UserInput(Node):
 
     def send_request(self):
         future = self.cli.call_async(self.req)
-        # future.add_done_callback(self.callback_future)
+        future.add_done_callback(self.callback_future)
 
-    # def callback_future(self, future):
-    #     response = future.result()
-    #     self.get_logger().info(f'{response.message}')
-    #     self.get_logger().info(f'Word State: {response.updated_word_state}')
+    def callback_future(self, future):
+        response = future.result()
+        self.get_logger().info(f'{response.message}')
+        self.get_logger().info(f'Word State: {response.updated_word_state}')
 
 
 def main(args=None):

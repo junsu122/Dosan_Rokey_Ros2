@@ -55,7 +55,7 @@ class ProgressActionServer(Node):
             # Sleep to wait for next update
             time.sleep(update_rate)
 
-            # Check if the goal has been canceled
+            # # Check if the goal has been canceled
             # if goal_handle.is_cancel_requested:
             #     self.get_logger().info('Action Server: Goal canceled')
             #     goal_handle.canceled()
