@@ -1,0 +1,103 @@
+QScrollArea *plotScrollArea;
+QWidget *scrollAreaWidgetContents;
+QWidget *verticalLayoutWidget;
+QVBoxLayout *plotVerticalLayout;
+
+
+QLCDNumber *lcdVel;
+QSlider *velSlider;
+QLabel *velMinLabel;
+QLabel *velMaxLabel;
+
+QLCDNumber *lcdAcc;
+QSlider *accSlider;
+QLabel *accMinLabel;
+QLabel *accMaxLabel;
+QLabel *labelAcc;
+QLabel *labelVel;
+
+
+
+Buttons (QPushButton)
+
+    ui.incrementJoint1
+    ui.decrementJoint1
+    ui.incrementJoint2
+    ui.decrementJoint2
+    ui.incrementJoint3
+    ui.decrementJoint3
+    ui.incrementJoint4
+    ui.decrementJoint4
+    ui.incrementJoint5
+    ui.decrementJoint5
+    ui.incrementJoint6
+    ui.decrementJoint6
+    ui.incrementCartesianX
+    ui.decrementCartesianX
+    ui.incrementCartesianY
+    ui.decrementCartesianY
+    ui.incrementCartesianZ
+    ui.decrementCartesianZ
+    ui.incrementCartesianRx
+    ui.decrementCartesianRx
+    ui.incrementCartesianRy
+    ui.decrementCartesianRy
+    ui.incrementCartesianRz
+    ui.decrementCartesianRz
+    ui.moveJoint
+    ui.moveCartesian
+    ui.grip
+    ui.release
+    ui.reset
+    ui.copy
+
+Labels (QLabel)
+
+    ui.jointPositionLabel
+    ui.cartesianPositionLabel
+    ui.jointLabelHeader
+    ui.statusLabelHeader
+    ui.valueLabelHeader
+    ui.cartesianLabelHeader
+    ui.cartesianstatusLabelHeader
+    ui.cartesianvalueLabelHeader
+    ui.jointLabel1
+    ui.jointLabel2
+    ui.jointLabel3
+    ui.jointLabel4
+    ui.jointLabel5
+    ui.jointLabel6
+    ui.cartesianLabelX
+    ui.cartesianLabelY
+    ui.cartesianLabelZ
+    ui.cartesianLabelRx
+    ui.cartesianLabelRy
+    ui.cartesianLabelRz
+    ui.controlLabel
+
+Line Edits (QLineEdit)
+
+    ui.jointstatus1
+    ui.jointvalue1
+    ui.jointstatus2
+    ui.jointvalue2
+    ui.jointstatus3
+    ui.jointvalue3
+    ui.jointstatus4
+    ui.jointvalue4
+    ui.jointstatus5
+    ui.jointvalue5
+    ui.jointstatus6
+    ui.jointvalue6
+    ui.cartesianstatusX
+    ui.cartesianvalueX
+    ui.cartesianstatusY
+    ui.cartesianvalueY
+    ui.cartesianstatusZ
+    ui.cartesianvalueZ
+    ui.cartesianstatusRx
+    ui.cartesianvalueRx
+    ui.cartesianstatusRy
+    ui.cartesianvalueRy
+    ui.cartesianstatusRz
+    ui.cartesianvalueRz
