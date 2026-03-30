@@ -46,3 +46,7 @@ colcon build --packages-select [your_package_name]
 
 # 환경 변수 반영
 source install/setup.bash
+
+---
+## 노트북에 맞는 드라이버 사용중인지 확인
+glxinfo | grep "OpenGL renderer"
